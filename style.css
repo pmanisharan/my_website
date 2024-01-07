@@ -52,17 +52,6 @@ body{
 
 }
 
-@media (max-width: 767px) {
-    .skills_display {
-        margin-left: 5%; /* Adjust the margin for smaller screens */
-        width: 90%; /* Adjust the width for smaller screens */
-    }
-
-    .entered_text {
-        width: 100%; /* Make the entered text take full width on smaller screens */
-    }
-}
-
 #my_name{
 	text-align: center;
 	font-size: 35px;
@@ -114,6 +103,17 @@ body{
 	flex-direction: row;
 	justify-content: space-between;
 	
+}
+
+@media (max-width: 767px) {
+    .skills_display {
+        margin-left: 5%; /* Adjust the margin for smaller screens */
+        width: 90%; /* Adjust the width for smaller screens */
+    }
+
+    .entered_text {
+        width: 100%; /* Make the entered text take full width on smaller screens */
+    }
 }
 
 #skills_heading{
