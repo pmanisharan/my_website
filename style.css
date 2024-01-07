@@ -92,19 +92,38 @@ body{
  
 
 
-.skills_display{
-	margin-left: 25%;
-	width: 50%;
-	display: flex;
-	flex-wrap: wrap;
-	align-content: center;
-	justify-content: space-between;
-	
-	flex-direction: row;
-	justify-content: space-between;
-	
+.skills_display {
+    margin-left: 15%;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
 }
 
+.entered_text {
+    background-color: lightsteelblue;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid darkblue;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px 4px rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+}
+
+.entered_text p {
+    margin: 0;
+    padding: 0;
+    background-color: darkblue;
+    color: whitesmoke;
+    font-weight: 100;
+    font-size: 20px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+/* Add this media query for smaller screens (adjust max-width as needed) */
 @media (max-width: 767px) {
     .skills_display {
         margin-left: 5%; /* Adjust the margin for smaller screens */
@@ -115,7 +134,6 @@ body{
         width: 100%; /* Make the entered text take full width on smaller screens */
     }
 }
-
 #skills_heading{
 	text-align: center;
 	color: steelblue;
